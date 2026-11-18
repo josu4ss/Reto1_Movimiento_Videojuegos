@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://bwm6p2nlipdrn"]
+
+[ext_resource type="Script" uid="uid://c7ra8q6x0bf6p" path="res://player.gd" id="1_d4awt"]
+
+[node name="Player" type="Node2D" unique_id=489363364]
+script = ExtResource("1_d4awt")
+
+[node name="Polygon2D" type="Polygon2D" parent="." unique_id=61088671]
+position = Vector2(366.25006, 172.50003)
+polygon = PackedVector2Array(-20, -20, 20, -20, 20, 20, -20, 20)
